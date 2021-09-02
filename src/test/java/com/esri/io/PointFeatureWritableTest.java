@@ -1,5 +1,6 @@
 package com.esri.io;
 
+import org.quantum.shapefile.io.PointFeatureWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.junit.Test;

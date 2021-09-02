@@ -1,6 +1,7 @@
 package com.esri.mapred;
 
-import com.esri.io.PolygonWritable;
+import org.quantum.shapefile.io.PolygonWritable;
+import org.quantum.shapefile.mapred.PolygonInputFormat;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.mapred.FileSplit;

@@ -1,6 +1,8 @@
 package com.esri.shp;
 
-import com.esri.io.PolylineMWritable;
+import org.quantum.shapefile.io.PolylineMWritable;
+import org.quantum.shapefile.shp.ShpHeader;
+import org.quantum.shapefile.shp.ShpReader;
 import org.junit.Test;
 
 import java.io.DataInputStream;

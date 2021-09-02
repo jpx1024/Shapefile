@@ -1,6 +1,8 @@
 package com.esri.shp;
 
 import com.esri.core.geometry.Point;
+import org.quantum.shapefile.shp.ShpHeader;
+import org.quantum.shapefile.shp.ShpReader;
 import org.junit.Test;
 
 import java.io.DataInputStream;

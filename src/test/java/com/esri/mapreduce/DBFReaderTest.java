@@ -1,5 +1,6 @@
 package com.esri.mapreduce;
 
+import org.quantum.shapefile.mapreduce.DBFRecordReader;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.mapreduce.TaskAttemptContext;
 import org.apache.hadoop.mapreduce.TaskAttemptID;

@@ -1,5 +1,6 @@
 package com.esri.io;
 
+import org.quantum.shapefile.io.PolylineMWritable;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;

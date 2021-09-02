@@ -1,5 +1,6 @@
 package com.esri.mapred;
 
+import org.quantum.shapefile.mapred.DBFRecordReader;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.MapWritable;

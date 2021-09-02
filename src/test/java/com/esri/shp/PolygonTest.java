@@ -2,6 +2,8 @@ package com.esri.shp;
 
 import com.esri.core.geometry.Envelope2D;
 import com.esri.core.geometry.Polygon;
+import org.quantum.shapefile.shp.ShpHeader;
+import org.quantum.shapefile.shp.ShpReader;
 import org.junit.Test;
 
 import java.io.DataInputStream;

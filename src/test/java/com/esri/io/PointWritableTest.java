@@ -1,6 +1,7 @@
 package com.esri.io;
 
 import com.esri.core.geometry.Point;
+import org.quantum.shapefile.io.PointWritable;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;

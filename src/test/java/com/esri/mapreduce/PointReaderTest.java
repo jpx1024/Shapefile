@@ -1,6 +1,7 @@
 package com.esri.mapreduce;
 
-import com.esri.io.PointWritable;
+import org.quantum.shapefile.io.PointWritable;
+import org.quantum.shapefile.mapreduce.PointInputFormat;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.mapreduce.RecordReader;

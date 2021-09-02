@@ -2,6 +2,7 @@ package com.esri.io;
 
 import com.esri.core.geometry.Point2D;
 import com.esri.core.geometry.Polygon;
+import org.quantum.shapefile.io.PolygonWritable;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;

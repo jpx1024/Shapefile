@@ -1,6 +1,7 @@
 package com.esri.mapreduce;
 
-import com.esri.io.PolygonWritable;
+import org.quantum.shapefile.io.PolygonWritable;
+import org.quantum.shapefile.mapreduce.PolygonInputFormat;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.mapreduce.RecordReader;

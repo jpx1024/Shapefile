@@ -1,5 +1,8 @@
 package com.esri.dbf;
 
+import org.quantum.shapefile.dbf.DBFField;
+import org.quantum.shapefile.dbf.DBFReader;
+import org.quantum.shapefile.dbf.DBFType;
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.FloatWritable;
 import org.apache.hadoop.io.IntWritable;
